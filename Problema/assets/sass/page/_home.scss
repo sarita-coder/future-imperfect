@@ -1,0 +1,55 @@
+.encabezado{
+	@include  flex-between;
+	margin-top: 50px;
+	height: 250px;
+
+}
+.text-magna{
+	display: flex;
+	justify-content:center;
+	flex-direction:column;
+	height: 200px;
+	h1, h6{
+		font-weight: 800;
+	}
+	.media-body{
+		p{
+		padding-top: 10px;
+		display: inline-block;
+		font-size: 12px; 
+		border-bottom:1px dotted #ddd;
+		}
+	}
+
+}
+.magna{
+	padding-bottom: 50px;
+}
+.readeing{
+	text-align: center;
+	display: inline-block;
+	width: 240px;
+	border: 1px solid #ddd;
+	border-radius: 0;
+	padding: 15px 15px;
+	color: #3c3c3c;
+	font-weight: 800;
+	margin-right: 20px;
+}
+.medias{
+	padding-top: 10px;
+	.media-object{
+		h6{
+			font-weight: 600;
+		}
+	}
+	.media-body{
+		padding-left: 20px;
+		h6{
+			font-weight: 600;
+			font-size: 16px;
+		}
+	}
+}
+
+
