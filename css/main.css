@@ -25,6 +25,18 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 12px;
   color: #7f8383; }
 
+.red .fa {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  color: white;
+  background: black;
+  font-size: 40px;
+  margin: 5px 10px;
+  border-radius: 5px; }
+.red .fa:hover {
+  border: 1px solid black; }
+
 .nav-ul li:nth-child(even) {
   padding-top: 15px; }
 

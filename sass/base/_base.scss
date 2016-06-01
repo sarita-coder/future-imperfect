@@ -14,3 +14,18 @@
 	font-size: 12px;
 	color: $color-gray;
 }
+.red{
+	.fa{
+		display:inline-block;
+		width:40px;
+		height:40px;
+		color:white;
+		background:black;
+		font-size: 40px;
+		margin:5px 10px;
+		border-radius:5px;
+	}
+	.fa:hover{
+	border:1px solid black;
+}
+}
