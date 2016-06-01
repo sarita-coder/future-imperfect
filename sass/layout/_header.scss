@@ -1,0 +1,21 @@
+.nav-ul {
+	li:nth-child(even){
+		padding-top: 15px;
+	}
+}
+.nav.navbar-right{
+	li{
+		border-left: 1px solid #e7e7e7;
+	}
+}
+.navbar-brand{
+	font-weight: 800;
+}
+.text-header{
+	h1{
+		font-weight: 800;
+	}
+	p{
+		font-weight: 600;
+	}
+}
